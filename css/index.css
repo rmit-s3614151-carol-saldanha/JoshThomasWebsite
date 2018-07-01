@@ -1,0 +1,392 @@
+body{
+    background-image:url("../images/black.jpg");
+    font-family: 'Droid Sans', Arial, sans-serif !important;
+    max-width: 1600px;
+    min-width: 800px;
+}
+header{
+    background-color: rgba(27,135,166,0.8);
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(256, 256, 256, 0.2), 0 6px 20px 0 rgba(256, 256, 256, 0.19);
+    border-radius: 7px;
+}
+header > img{
+    margin-right: 10px;
+    padding: 5px;
+    width: 80px;
+    height: 60px;
+    float: left;
+    display: inline;
+}
+h2{
+    text-align: center;
+    padding: 5px !important;
+    margin-bottom: 1px !important;
+    text-shadow: 1px 1px 2px white, 0 0 5px blue, 0 0 5px white !important;
+}
+header p{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    padding-bottom: 5px !important;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black !important;
+}
+
+.maindiv{
+    width: 80%;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(256, 256, 256, 0.2), 0 8px 20px 0 rgba(256, 256, 256, 0.19);
+    border-radius: 7px;
+}
+.maindiv nav{
+    text-align: center;
+    
+}
+.maindiv ul {
+    list-style-type: none;
+    /*padding: 0;*/
+   background-color: #1AC24D;
+   padding: 8px 16px;
+    /*background-color: #f1f1f1;*/
+}
+.maindiv li{
+    display:inline;
+}
+.maindiv li a {
+    margin-top: 10px;
+     color: #FFFFFF;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px black, 0 0 25px green, 0 0 5px black;
+    /*border-radius: 5px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 256, 0, 0.2), 0 8px 20px 0 rgba(0, 256, 0, 0.19);
+}
+
+.maindiv a:link, .maindiv a:visited{
+    background-color: #1AC24D;
+    /*padding: 14px 25px;*/
+}
+
+.maindiv a:hover, .maindiv a:active{
+    background-color: black;
+}
+
+.maindiv img{
+    width: 300px;
+    height: 400px;
+}
+.maindiv main{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+img{
+    /*display:block;*/
+    margin: auto;
+}
+main > p::first-letter{
+    font-size: 200%;
+}
+main > p{
+    text-align: justify;
+    padding: 20px;
+}
+#mainPage{
+    display: flex;
+    
+}
+#mainPage > div{
+    flex: 1;
+   
+}
+#mainPage p{
+    text-align: justify;
+    padding: 20px;
+}
+#mainPage  p::first-letter{
+    font-size: 150%;
+}
+
+#iframeDiv{
+    content: center;
+    margin: 0 auto; 
+    width: 500px;
+}
+iframe{
+    border: 1px solid;
+    padding: 10px;
+    width: 600px; 
+    height: 315px;
+    display:block;
+    
+}
+iframe:hover{
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #1B87A6;
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(256, 256, 256, 0.2), 0 6px 20px 0 rgba(256, 256, 256, 0.19);
+    border-radius: 7px;
+    height: 30px;
+    
+}
+footer p, footer a img{
+     display:inline;
+     vertical-align: middle;
+}
+footer div{
+    padding-right: 50px;
+    float: right;
+}
+footer div img{
+    height: 30px;
+    width: 30px;
+}
+#formDiv{
+    width: 80%;
+    margin: auto;
+}
+#formDiv div{
+    display: flex;
+    flex-direction: row;
+    content: center;
+    vertical-align: middle;
+}
+#formDiv div label{
+    flex-basis: 30%;
+    padding-left: 10px;
+    padding-top: 10px;
+   /* margin-bottom: 5px;*/
+    display: inline-block;
+    content: center;
+    font-size: medium;
+    vertical-align: middle;
+}
+#formDiv div label text{
+    display: inline-block;
+  
+    vertical-align: middle;
+}
+#formDiv div input:focus, #formDiv div textarea:focus{
+	border: solid 3px #77bde0;	
+}
+
+#formDiv div textarea{
+    flex-basis: 70%;
+	height: 100px;	
+	resize: none; 
+	overflow: auto;
+}
+#formDiv div input, #formDiv div select, #formDiv div textarea{
+    flex-basis: 70%;
+	width: 500px;	
+	border-radius: 20px;
+	outline: none;
+	padding: 10px;
+	font-family: 'Sniglet', cursive;
+	font-size: 1em;
+	color: #676767;
+	transition: border 0.5s;
+	text-align:center;
+
+	border: solid 3px #98d4f3;	
+}
+.submitDiv{
+    display: inline-block;
+    padding: 15px;
+}
+.personal-information h1 {
+  font-size: 1.3em;
+  font-family: "Roboto";
+  background-color: #3C8DC5;
+}
+.submitButton {
+    background-color: #1B87A6;
+    color: #FFFFFF !important;
+    border: none !important;
+    padding: 15px 32px !important;
+    text-align: center !important;
+    text-decoration: none;
+    font-size: 16px !important;
+    margin: 4px 2px !important;
+    cursor: pointer !important;
+    float: right !important;
+    vertical-align: middle !important;
+}
+.compulsory{
+    color: red;
+}
+.dvd{
+    display: flex;
+}
+.clickable { 
+    position:relative;
+    flex: 1;
+    border: 1px solid #919096;
+    border-radius: 5px;
+    margin: 5px;
+}
+.clickable:hover{
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.clickable img{
+    display: block;
+    width: 100px;
+    height: 150px;
+}
+.shopHeading{
+    text-align: center;
+    text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px black;
+}
+h5{
+    text-align: center;
+}
+.season{
+    display:flex;
+}
+.season img{
+    flex:2;
+    padding: 10px;
+    /*padding-left: 20px;
+    height: 150px;
+    width: 100px;*/
+
+}
+.seasonPriceDiv{
+    flex:3;
+    text-align: center;
+    padding-top: 25px;
+}
+.seasonPriceDiv label{
+    width:50%;
+}
+.seasonPriceDiv input{
+    width:50%;
+}
+.price{
+    background-color:transparent;
+    border: 0px solid;
+}
+#season1price{
+    background-color:transparent;
+    border: 0px solid;
+    /*text-align:center;*/
+}
+#season1price:focus {
+    outline:none;
+}
+#season2price{
+    background-color:transparent;
+    border: 0px solid;
+    text-align:center;
+}
+#season2price:focus {
+    outline:none;
+}
+#season3price{
+    background-color:transparent;
+    border: 0px solid;
+    text-align:center;
+}
+#season3price:focus {
+    outline:none;
+}
+#season11price{
+    background-color:transparent;
+    border: 0px solid;
+    text-align:center;
+}
+#season11price:focus {
+    outline:none;
+}
+#season12price{
+    background-color:transparent;
+    border: 0px solid;
+    text-align:center;
+}
+#season12price:focus {
+    outline:none;
+}
+#season13price{
+    background-color:transparent;
+    border: 0px solid;
+    text-align:center;
+}
+#season13price:focus {
+    outline:none;
+}
+.itunesDiv{
+    display: flex;
+    margin-top: 20px;
+    height: 400px;
+}
+.itunesDiv > div{
+    flex: 1;
+}
+details{
+    padding: 10px;
+}
+summary::-webkit-details-marker {
+  display: none
+}
+summary:after {
+  /*border-radius: 5px; */
+  content: "read more..";
+  color: red; 
+  float: right; 
+  /*font-size: 1.5em; 
+  font-weight: bold; */
+  margin: 0 10px 0 0; 
+  padding: 0; 
+  /*text-align: center;
+  width: 20px;*/
+}
+details[open] summary:after {
+  content: "read less..";
+}
+.productTable{
+    border-collapse: collapse;
+    width: 100%;
+}
+.productTable th, td {
+    text-align: center;
+    padding: 8px;
+}
+.productTable tr, #shippingTable tr{
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+.productTable th , #shippingTable th{
+    background-color: rgba(27,135,166,0.8);
+    color: white;
+}
+.totalTable, #shippingTable{
+    width:50%;
+    position: relative;
+    left:50%;
+}
+#expiryMonth, #expiryYear{
+    flex-basis: 35% !important;
+    width: 220px !important;
+}
+.delivery, #rememberMeCheckBox{
+    flex-basis: 10% !important;
+    width: 10px !important;
+}
+#receipt{
+    margin: 20px;
+    padding:30px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
